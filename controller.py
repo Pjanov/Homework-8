@@ -1,5 +1,11 @@
 import view
 import model as mod
+from colorama import init
+from colorama import Fore
+
+
+init()
+print(Fore.GREEN)
 
 
 def create_record():
@@ -95,5 +101,5 @@ def application_menu():
 
 if __name__ == '__main__':
     # print(create_record())
-    # application_menu()
+    application_menu()
     pass
